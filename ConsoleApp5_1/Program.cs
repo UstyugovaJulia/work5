@@ -96,8 +96,11 @@ namespace ConsoleApp5_1
         {
             
             int start = 0;
-            int n = 2;
-            for (int t = 0; t <= n; t++)
+            Console.WriteLine("Введите количество игроков");
+            int n = int.Parse(Console.ReadLine());
+
+            //int n = 2;
+            for (int t = 0; t <= n-1; t++)
             {
                 int startSortIndex = start;
                 int endtSortIndex = start + 5;
